@@ -1,0 +1,29 @@
+.landing-container {
+    background: transparent;
+    height:100vh;
+}
+
+.landing-block {
+    background:#39f966;
+    width:50vw;
+    height:75vh;
+    z-index:-1;
+    position:absolute;
+    box-shadow: 3px 1px 5px 1px #888888;
+}
+
+/*.landing-img {*/
+    /*height:50vh;*/
+    /*width:50vw;*/
+    /*filter:grayscale(80%);*/
+    /*position:absolute;*/
+    /*z-index:0;*/
+/*}*/
+
+.landing-video {
+    background:#fff;
+    box-shadow: 3px 1px 5px 1px #888888;
+    margin-right:25vw;
+    margin-top:15vh;
+    z-index:1;
+}

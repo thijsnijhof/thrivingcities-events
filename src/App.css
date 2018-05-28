@@ -7,6 +7,13 @@
   height: 80px;
 }
 
+@font-face {
+  font-family: 'Morebi Rounded';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Morebi Rounded'), url('GT-CANARY - MorebiRounded-Regular.woff') format('woff');
+}
+
 .App-header {
   background-color: #222;
   height: 150px;

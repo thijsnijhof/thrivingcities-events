@@ -1,5 +1,6 @@
 {
   "name": "thrivingcities",
+  "homepage":"http://thijsnijhof.github.io/thrivingcities-events",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -4,9 +4,7 @@ import logo from '../img/TC_Mark_Lightened_RGB.svg';
 // import video from '../img/prevideo.mp4';
 //
 // <video className="landing-video" width="640" height="480" autoPlay>
-//     <source src={video} type="video/mp4"/>
-// </video>
-
+/*     <source src={video} type="video/mp4"/> </video>*/
 const Landing = () => {
     return (
         <div className='landing-container'>

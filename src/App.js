@@ -4,7 +4,8 @@ import './App.css';
 import Landing from './components/Landing';
 import Event from './components/Event';
 import EventOdd from './components/EventOdd';
-import MoreEvents from './components/MoreEvents';
+import MoreEvents from './components/PastEvents';
+import Footer from './components/Footer';
 
 class App extends Component {
     constructor() {
@@ -29,6 +30,7 @@ class App extends Component {
                 <EventOdd/>
                 <Event title={eventTitleThird} description={eventTextThird}/>
                 <MoreEvents/>
+                <Footer />
             </div>
         );
     }

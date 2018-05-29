@@ -1,5 +1,4 @@
 .event-container {
-    /*background: #f6f6f6;*/
     background:#eaf8f0;
     height:100vh;
     width:100%;
@@ -14,7 +13,6 @@
     max-width:100%;
     height:auto;
     margin-top:5em;
-    /*box-shadow: 3px 1px 5px 1px #888888;*/
     box-shadow:10px 12px 3px 3px #7bf8b7, 30px 30px 3px 1px #b5fbd7
 }
 .event-image-container {
@@ -47,6 +45,7 @@
     font-weight:400;
     font-size:x-large;
     color:#666;
+    font-family:"Morebi Rounded", Times,serif;
 }
 
 .event-text-container p {
@@ -54,6 +53,7 @@
     text-align:center;
     color:#777;
     font-size:large;
+    font-family:"Morebi Rounded", Times,serif;
 }
 
 @media screen and (max-width: 550px){

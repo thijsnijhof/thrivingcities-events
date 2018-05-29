@@ -1,0 +1,42 @@
+.footer-container {
+    display:flex;
+    height:10em;
+    flex-direction:column;
+    background: #7df9b9;
+    justify-content: center;
+    align-items:center;
+    margin-top:3em;
+}
+.icons-container {
+    display:flex;
+    width:10%;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.icons-container i {
+    color:#fff;
+    font-size:xx-large;
+    border:2px solid #7df9b9;
+    border-radius:5px;
+    transition:all 0.3s ease-in-out;
+}
+
+.icons-container i:hover {
+    color:#7df9b9;
+    border:2px solid #fff;
+    background:#fff;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.copyright-container {
+    display:flex;
+    flex-direction:column;
+}
+.copyright-container p {
+    font-family: "Morebi Rounded",Times,serif;
+}
+.copyright-container p, .copyright-container i {
+    color:#fff;
+    /*font-size:medium;*/
+}

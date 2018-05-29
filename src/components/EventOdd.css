@@ -46,6 +46,7 @@
     font-weight:400;
     font-size:x-large;
     color:#666;
+    font-family:"Morebi Rounded", Times,serif;
 }
 
 .event-odd-text-container p {
@@ -53,6 +54,7 @@
     text-align:center;
     color:#777;
     font-size:large;
+    font-family:"Morebi Rounded", Times,serif;
 }
 
 @media screen and (max-width: 550px){

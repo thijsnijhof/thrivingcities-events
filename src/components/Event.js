@@ -1,9 +1,10 @@
 import React from 'react';
 import './Event.css';
-// import logo from '../img/TC_Mark_Lightened_RGB.png';
 import image1 from '../img/event1.jpg';
 import SubscribeBtn from './SubscribeBtn'
 import Fade from 'react-reveal/Fade';
+// Use react-reveal library to slide in the text and images
+// Use by wrapping them in the corresponding components
 
 const Event = ({title, description}) => {
     return (
@@ -14,7 +15,6 @@ const Event = ({title, description}) => {
                 </Fade>
             </div>
 
-
             <div className="event-text-container">
                 <Fade right>
                     <h2>{title}</h2>
@@ -22,7 +22,6 @@ const Event = ({title, description}) => {
                     <SubscribeBtn/>
                 </Fade>
             </div>
-
 
         </div>
     )

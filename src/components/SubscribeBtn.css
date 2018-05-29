@@ -6,6 +6,7 @@
     text-align:center;
     border-style:solid;
     box-shadow:1px 1px 1px 1px #b5fbd7;
+    color:#333333;
 }
 .subscribe-container input:active,.subscribe-container input:focus, .subscribe-container input:hover {
     border:1px solid #7df9b9;

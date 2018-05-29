@@ -10,7 +10,7 @@ const SubscribeBtn = () => {
             fields={[
                 {
                     name: 'EMAIL',
-                    placeholder:'email',
+                    placeholder:'example@example.com',
                     type:'email',
                     required:true
                 }

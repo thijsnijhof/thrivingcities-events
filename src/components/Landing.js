@@ -1,10 +1,9 @@
 import React from 'react';
 import './Landing.css';
 import logo from '../img/TC_Mark_Lightened_RGB.svg';
-// import video from '../img/prevideo.mp4';
-//
-// <video className="landing-video" width="640" height="480" autoPlay>
-/*     <source src={video} type="video/mp4"/> </video>*/
+// Have to import images from here instead of directly in the JSX elements
+// Otherwise webpack will not be able to find the source of the images
+
 const Landing = () => {
     return (
         <div className='landing-container'>
